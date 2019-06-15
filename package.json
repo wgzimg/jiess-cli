@@ -8,13 +8,18 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "js-cookie": "^2.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.6.10",
+    "vue-jiess-admin": "^0.0.9",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
+    "mockjs": "^1.0.1-beta3",
     "vue-template-compiler": "^2.6.10"
   },
   "postcss": {
