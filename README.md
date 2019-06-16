@@ -60,10 +60,16 @@ export default {
 	TOKEN: 'Token',
 	//隐藏组件的唯一常量，定义好后不要更改
 	HIDE_DOM: '***隐藏***',
+	//用户数据源
 	USER_DATA: 'userData',
+	//首页name
 	HOME_PAGE_NAME: 'home',
+	//登陆页name
 	LOGIN_PAGE_NAME: 'login',
+	//注册页name
 	REGISTER_PAGE_NAME: 'register',
+	//关闭所有的虚拟路由name
+	CLOSE_ALL_TABS_NAME: 'closeAll',
 	//当前页面对于路由参数对象
 	PAGE_PATH_ITEM: 'jiess-page-item',
 	//下拉框字段映射
