@@ -6,7 +6,8 @@
         </el-header>
         <el-container>
             <!--左侧导航-->
-            <JsSysLeft @menuClick="menuClick" :httpMenu="httpMenu"></JsSysLeft>
+            <JsSysLeft @menuClick="menuClick" :httpMenu="httpMenu" text-color="#fff" active-text-color="#108CEE"
+			 background-color="#252a34"></JsSysLeft>
             <!--主内容区域-->
             <div id="main">
                 <div id="tab-box">
