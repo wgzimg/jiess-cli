@@ -1,4 +1,4 @@
-//src/assets/js/cnfInput.js
+//编辑添加页面的配置
 export default {
 	login(second) {
 		return [

@@ -5,8 +5,6 @@ export default {
 	HIDE_DOM: '***隐藏***',
 	//用户数据源
 	USER_DATA: 'userData',
-	//首页name
-	HOME_PAGE_NAME: 'home',
 	//登陆页name
 	LOGIN_PAGE_NAME: 'login',
 	//注册页name
@@ -18,6 +16,15 @@ export default {
 	//下拉框字段映射
 	selectOptionValue: 'Id',
 	selectOptionLabel: 'Value',
+	/**
+	 * 诸如如el-select,el-cascader等组件显示(text)与值(id)不一样
+	 * 重新设立一个字段存放text
+	 * 新字段规则是在name上增加前缀或后缀
+	 */
+	//前缀
+	fromComponentPrefixText: '',
+	//后缀
+	fromComponentSuffixText: '_txt',
 	//登录
 	username: 'LogonName',
 	password: 'Pwd',
@@ -51,11 +58,14 @@ export default {
 	//侧边栏子层级点击后返回数据
 	submenuChildrenData: 'ChildrenData',
 	//常见图标配置
+	iconDefault: 'el-icon-view', //默认的返回图标
 	iconEdit: 'el-icon-edit-outline', //编辑
 	iconSearch: 'el-icon-search', //搜索
 	iconDelete: 'el-icon-delete', //删除
 	iconRefresh: 'el-icon-refresh', //刷新
+	iconClose: 'el-icon-close', //关闭
 	iconLook: 'el-icon-view', //查看
+	iconTitle: 'el-icon-tickets', //标题
 	iconFabu: 'el-icon-goods', //发布
 	iconXiaJia: 'el-icon-sold-out', //下架
 	iconTuiJian: 'el-icon-star-on', //推荐
